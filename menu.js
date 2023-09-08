@@ -240,7 +240,8 @@ let menu =
             "Dal",
             "Rice",
             "Rumali Roti",
-            "Salad",   
+            "Salad",
+            "Ladoo",
         ],
         [
             // Monday Breakfast
@@ -271,6 +272,7 @@ let menu =
             "Moong Daal",
             "Rice",
             "Chapati",
+            "Milk Cake"
         ],
         [
             // Tuesday Breakfast
@@ -300,6 +302,7 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Halwa",
         ],
         [
             // Wednesday Breakfast
@@ -330,6 +333,7 @@ let menu =
             "Dal",
             "Tandoori Roti",
             "Salad",
+            "Gulab Jamun",
         ],
         [
             // Thursday Breakfast
@@ -359,6 +363,7 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Custard",
         ],
         [
             // Friday Breakfast
@@ -390,6 +395,7 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Semiyan",
         ],
         [
             // Saturday Breakfast
@@ -422,6 +428,7 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Kheer",
         ],
 
     ]
