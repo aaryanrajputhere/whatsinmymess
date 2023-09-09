@@ -223,7 +223,7 @@ let menu =
         ],
         [
             // Sunday Lunch
-            "Mater Masroom",
+            "Matar Mushroom",
             "Dal",
             "Rice",
             "Chapati",
