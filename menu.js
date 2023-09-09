@@ -1,3 +1,5 @@
+let token;
+
 const currentDate = new Date();
 
 const currentDay = currentDate.getDay();
@@ -168,6 +170,8 @@ else if (currentDay === 6) {
     }
 }
 
+
+
 let meal = 
     [
         "Sunday's Breakfast 8:30 a.m. - 10:00 a.m.",
@@ -206,9 +210,7 @@ let meal =
         "Saturday's Dinner 8:00 p.m. - 9:30 p.m.",
     ]
 
-const currentMeal = document.getElementById("currentMeal");
 
-currentMeal.textContent = meal[token];
 
 let menu = 
     [
@@ -240,8 +242,7 @@ let menu =
             "Dal",
             "Rice",
             "Rumali Roti",
-            "Salad",
-            "Ladoo",
+            "Salad",   
         ],
         [
             // Monday Breakfast
@@ -272,7 +273,6 @@ let menu =
             "Moong Daal",
             "Rice",
             "Chapati",
-            "Milk Cake"
         ],
         [
             // Tuesday Breakfast
@@ -302,7 +302,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Halwa",
         ],
         [
             // Wednesday Breakfast
@@ -333,7 +332,6 @@ let menu =
             "Dal",
             "Tandoori Roti",
             "Salad",
-            "Gulab Jamun",
         ],
         [
             // Thursday Breakfast
@@ -363,7 +361,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Custard",
         ],
         [
             // Friday Breakfast
@@ -395,7 +392,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Semiyan",
         ],
         [
             // Saturday Breakfast
@@ -428,16 +424,76 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Kheer",
         ],
 
     ]
 
 
 
+
+const currentMeal = document.getElementById("currentMeal");
+
 const currentMenu = document.getElementById("currentMenu");
 
+currentMeal.textContent = meal[token];
+
 currentMenu.textContent = menu[token];
+
+function nextMeal() {
+    if (token === 27)
+    {
+        token = 0;
+        token = token + 1;
+
+        currentMeal.textContent = meal[token];
+
+        currentMenu.textContent = menu[token];
+
+    }
+    else
+    {
+        token = token + 1;
+        
+        currentMeal.textContent = meal[token];
+
+        currentMenu.textContent = menu[token];
+
+    }
+}
+
+function previousMeal() {
+    if (token === 0)
+    {
+        token = 27;
+        token = token - 1;
+
+        currentMeal.textContent = meal[token];
+
+        currentMenu.textContent = menu[token];
+
+    }
+    else
+    {
+        token = token - 1;
+        
+        currentMeal.textContent = meal[token];
+
+        currentMenu.textContent = menu[token];
+
+    }
+}
+
+
+
+
+const next = document.getElementById("Next");
+
+next.addEventListener("click", nextMeal);
+
+const previous = document.getElementById("Previous");
+
+previous.addEventListener("click", previousMeal);
+
 
 
 
