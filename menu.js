@@ -216,7 +216,7 @@ let menu =
     [
         [
             // Sunday Breakfast
-            "Nan Chhote",
+            "Nan Chole",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
