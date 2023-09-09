@@ -443,8 +443,7 @@ function nextMeal() {
     if (token === 27)
     {
         token = 0;
-        token = token + 1;
-
+        
         currentMeal.textContent = meal[token];
 
         currentMenu.textContent = menu[token];
@@ -465,7 +464,7 @@ function previousMeal() {
     if (token === 0)
     {
         token = 27;
-        token = token - 1;
+        
 
         currentMeal.textContent = meal[token];
 
