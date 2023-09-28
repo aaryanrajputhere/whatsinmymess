@@ -1,21 +1,50 @@
-body{
-    background-color: black;
-
+body {
+  background-color: black;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
-
-h1{
-  background-color: grey;
+h1 {
   color: white;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: relative;
-
-
+  text-align: center;
 }
 
-h2{
+h2 {
   color: white;
+  position: relative;
+  text-align: center;
 }
-h3{
+h3 {
   color: white;
+  position: relative;
+  text-align: center;
 }
+
+#dishContainer {
+  position: relative;
+  text-align: center;
+}
+
+#Previous {
+  position: relative;
+  left: 44%;
+   
+}
+
+#Next {
+  position: relative;
+  
+  left: 47%;
+}
+
+
+
+
+
+
+
