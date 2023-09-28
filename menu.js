@@ -172,77 +172,123 @@ else if (currentDay === 6) {
 
 
 
-let meal = 
+let meal = [
+    "Sunday's Breakfast",
+    "Sunday's Lunch",
+    "Sunday's Snacks",
+    "Sunday's Dinner",
+    
+    "Monday's Breakfast",
+    "Monday's Lunch",
+    "Monday's Snacks",
+    "Monday's Dinner",
+    
+    "Tuesday's Breakfast",
+    "Tuesday's Lunch",
+    "Tuesday's Snacks",
+    "Tuesday's Dinner",
+    
+    "Wednesday's Breakfast",
+    "Wednesday's Lunch",
+    "Wednesday's Snacks",
+    "Wednesday's Dinner",
+    
+    "Thursday's Breakfast",
+    "Thursday's Lunch",
+    "Thursday's Snacks",
+    "Thursday's Dinner",
+    
+    "Friday's Breakfast",
+    "Friday's Lunch",
+    "Friday's Snacks",
+    "Friday's Dinner",
+    
+    "Saturday's Breakfast",
+    "Saturday's Lunch",
+    "Saturday's Snacks",
+    "Saturday's Dinner"
+  ];
+  
+
+let timings =
     [
-        "Sunday's Breakfast 8:30 a.m. - 10:00 a.m.",
-        "Sunday's Lunch 1:00 p.m. - 2:30 p.m.",
-        "Sunday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Sunday's Dinner 8:00 p.m. - 9:30 p.m.",
-        
-        "Monday's Breakfast 7:45 a.m. - 9:00 a.m.",
-        "Monday's Lunch 12:30 p.m. - 2:00 p.m.",
-        "Monday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Monday's Dinner 8:00 p.m. - 9:30 p.m.",
-        
-        "Tuesday's Breakfast 7:45 a.m. - 9:00 a.m.",
-        "Tuesday's Lunch 12:30 p.m. - 2:00 p.m.",
-        "Tuesday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Tuesday's Dinner 8:00 p.m. - 9:30 p.m.",
-
-        "Wednesday's Breakfast 7:45 a.m. - 9:00 a.m.",
-        "Wednesday's Lunch 12:30 p.m. - 2:00 p.m.",
-        "Wednesday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Wednesday's Dinner 8:00 p.m. - 9:30 p.m.",
-        
-        "Thursday's Breakfast 7:45 a.m. - 9:00 a.m.",
-        "Thursday's Lunch 12:30 p.m. - 2:00 p.m.",
-        "Thursday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Thursday's Dinner 8:00 p.m. - 9:30 p.m.",
-        
-        "Friday's Breakfast 7:45 a.m. - 9:00 a.m.",
-        "Friday's Lunch 12:30 p.m. - 2:00 p.m.",
-        "Friday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Friday's Dinner 8:00 p.m. - 9:30 p.m.",
-
-        "Saturday's Breakfast 8:30 a.m. - 10:00 a.m.",
-        "Saturday's Lunch 1:00 p.m. - 2:30 p.m.",
-        "Saturday's Snacks 5:15 p.m. - 6:00 p.m.",
-        "Saturday's Dinner 8:00 p.m. - 9:30 p.m.",
-    ]
-
-
+      //Sunday
+      "8:30 a.m. - 10:00 a.m.",
+      "1:00 p.m. - 2:30 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Monday
+      "7:45 a.m. - 9:00 a.m.",
+      "12:30 p.m. - 2:00 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Tuesday
+      "7:45 a.m. - 9:00 a.m.",
+      "12:30 p.m. - 2:00 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Wednesday
+      "7:45 a.m. - 9:00 a.m.",
+      "12:30 p.m. - 2:00 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Thursday
+      "7:45 a.m. - 9:00 a.m.",
+      "12:30 p.m. - 2:00 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Friday
+      "7:45 a.m. - 9:00 a.m.",
+      "12:30 p.m. - 2:00 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+      //Saturday
+      "8:30 a.m. - 10:00 a.m.",
+      "1:00 p.m. - 2:30 p.m.",
+      "5:15 p.m. - 6:00 p.m.",
+      "8:00 p.m. - 9:30 p.m.",
+  
+    ];
 
 let menu = 
     [
         [
             // Sunday Breakfast
-            "Nan Chole",
+            "Nan Chhote",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
         ],
         [
             // Sunday Lunch
-            "Matar Mushroom",
+            "Mater Masroom",
             "Dal",
             "Rice",
             "Chapati",
-            "Rayta",
+            "Raita",
             "Salad",
+            "Lassi"
         ],
         [
             // Sunday Snacks
-            "Spring Roll",
+            "Sandwich",
             "Tea",
         ],
         [
             // Sunday Dinner
-            "Kadhai Paneer",
-            "Chicken",
+            "Kadhai Paneer / Chicken",
             "Dal",
             "Rice",
             "Rumali Roti",
-            "Salad",   
+            "Salad",
+            "Ladoo"
+
         ],
         [
             // Monday Breakfast
@@ -261,24 +307,28 @@ let menu =
             "Fried Rice",
             "Salad",
             "Raita",
+            "Lassi"
         ],
         [
             // Monday Snacks
-            "Aloo Tikki",
+            "Burger",
             "Tea",
         ],
         [
             // Monday Dinner
-            "Aloo Gobhi",
+            "Mix Veg",
             "Moong Daal",
             "Rice",
             "Chapati",
+            "Salad",
+            "Kulfi",
         ],
         [
             // Tuesday Breakfast
-            "Pav Bhaji",
+            "Banana Milk",
             "Cornflex",
             "Bread Butter & Jam",
+            "Milk",
             "Tea",
             
         ],
@@ -289,19 +339,21 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Lassi"
         ],
         [
             // Tuesday Snacks
-            "Samosa",
+            "Fruit Chat",
             "Tea"
         ],
         [
             // Tuesday Dinner
-            "Aloo Shimla Mirch",
+            "Manchurian",
             "Dal Fry",
             "Rice",
             "Chapati",
             "Salad",
+            "Halwa",
         ],
         [
             // Wednesday Breakfast
@@ -319,10 +371,11 @@ let menu =
             "Chapati",
             "Salad",
             "Curd",
+            "Lassi"
         ],
         [
             // Wednesday Snacks
-            "Sandwich",
+            "Spring Roll",
             "Tea",
         ],
         [
@@ -330,7 +383,7 @@ let menu =
             "Shahi Paneer / Gravy Chicken",
             "Rice",
             "Dal",
-            "Tandoori Roti",
+            "Butter Naan",
             "Salad",
         ],
         [
@@ -348,10 +401,11 @@ let menu =
             "Chapati",
             "Salad",
             "Curd",
+            "Lassi"
         ],
         [
             // Thursday Snacks
-            "Patties",
+            "Samosa",
             "Tea",
         ],
         [
@@ -361,6 +415,7 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Custard",
         ],
         [
             // Friday Breakfast
@@ -386,18 +441,18 @@ let menu =
         ],
         [
             // Friday Dinner
-            "Egg Curry",
-            "Chilli Paneer",
+            "Egg Curry / Chilli Paneer",
             "Arhar Dal",
             "Rice",
             "Chapati",
             "Salad",
+            "Ice Cream"
         ],
         [
             // Saturday Breakfast
             "Dosa",
             "Uttapam",
-            "Sambar",
+            "Sambhar",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
@@ -405,7 +460,7 @@ let menu =
         ],
         [
             // Saturday Lunch
-            "Ghiya Chana",
+            "Rajma",
             "Masoor Saboot Dal",
             "Rice",
             "Chapati",
@@ -424,66 +479,91 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
+            "Kheer",
         ],
 
     ]
 
-
-
-
 const currentMeal = document.getElementById("currentMeal");
 
-const currentMenu = document.getElementById("currentMenu");
+const currentTiming = document.getElementById("currentTiming");
 
-currentMeal.textContent = meal[token];
 
-currentMenu.textContent = menu[token];
+
+const menuLength = menu[token].length;
+
+console.log(menuLength)
+
+function fillMenu() {
+    currentMeal.textContent = meal[token];
+    currentTiming.textContent = timings[token];
+    console.log(menu[token]);
+
+    var menuContainer = document.getElementById("menuContainer"); 
+
+    for (var dishIndex in menu[token]) {
+        
+
+        var dishElement = document.createElement("h3");
+        dishElement.id = "dish" + dishIndex;
+        dishElement.innerHTML = menu[token][dishIndex];
+
+        menuContainer.appendChild(dishElement); 
+    }
+}
+
+function delMenu() {
+    
+    var menuContainer = document.getElementById("menuContainer"); 
+
+    for (var dishIndex in menu[token]) {
+       
+        tagName = "dish" + dishIndex;
+        var dishElement = document.getElementById(tagName);
+        
+        
+        dishElement.remove();
+    }
+}
+
+fillMenu();
 
 function nextMeal() {
+
+    delMenu();
+    
     if (token === 27)
     {
         token = 0;
+        token = token + 1;
         
-        currentMeal.textContent = meal[token];
-
-        currentMenu.textContent = menu[token];
-
+        fillMenu();
     }
     else
     {
         token = token + 1;
         
-        currentMeal.textContent = meal[token];
-
-        currentMenu.textContent = menu[token];
-
+        fillMenu();
     }
 }
 
 function previousMeal() {
+    
+    delMenu();
     if (token === 0)
     {
         token = 27;
+        token = token - 1;
         
-
-        currentMeal.textContent = meal[token];
-
-        currentMenu.textContent = menu[token];
-
+        fillMenu();
     }
     else
     {
         token = token - 1;
         
-        currentMeal.textContent = meal[token];
-
-        currentMenu.textContent = menu[token];
-
+        fillMenu();
     }
 }
-
-
-
 
 const next = document.getElementById("Next");
 
@@ -492,28 +572,6 @@ next.addEventListener("click", nextMeal);
 const previous = document.getElementById("Previous");
 
 previous.addEventListener("click", previousMeal);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
