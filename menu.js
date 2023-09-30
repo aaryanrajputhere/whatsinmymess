@@ -535,7 +535,6 @@ function nextMeal() {
     if (token === 27)
     {
         token = 0;
-        token = token + 1;
         
         fillMenu();
     }
@@ -553,7 +552,6 @@ function previousMeal() {
     if (token === 0)
     {
         token = 27;
-        token = token - 1;
         
         fillMenu();
     }
