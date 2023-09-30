@@ -504,7 +504,7 @@ function fillMenu() {
     for (var dishIndex in menu[token]) {
         
 
-        var dishElement = document.createElement("h3");
+        var dishElement = document.createElement("li");
         dishElement.id = "dish" + dishIndex;
         dishElement.innerHTML = menu[token][dishIndex];
 
