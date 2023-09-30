@@ -21,7 +21,12 @@ h2 {
   position: relative;
   text-align: center;
 }
-
+.horizontal-line {
+  height: 0.8px;
+  width: 300px;
+  background-color: black;
+  align-items: center;
+}
 
 
 li {
@@ -29,7 +34,7 @@ li {
   padding-top: 10px;
   padding-left: 90px;
   list-style: none;
-  margin-left: 10px;
+  margin-left: 120px;
   
 }
 
@@ -57,7 +62,7 @@ li::before{
 #Previous {
   position: absolute;
   border-radius: 100px;
-  bottom: 10%;
+  bottom: 5%;
   left: 33%;
   padding: 6px;    
 }
@@ -66,7 +71,7 @@ li::before{
   position: absolute;
   border-radius: 100px;
   left: 55%;
-  bottom: 10%;
+  bottom: 5%;
   padding-top: 6px;
   padding-left: 17px;
   padding-right: 17px;
