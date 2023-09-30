@@ -1,30 +1,52 @@
 body {
-  background-color: black;
+  background-color: white;
   min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  
 }
 
 h1 {
   margin-top: 40px;
-  color: white;
+  color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: black;
   position: relative;
   text-align: center;
 }
 
-h2 {
-  color: white;
+
+
+li {
   position: relative;
-  text-align: center;
+  padding-top: 10px;
+  padding-left: 90px;
+  list-style: none;
+  margin-left: 120px;
+  
 }
-h3 {
-  color: white;
-  position: relative;
-  text-align: center;
+
+li:not(:last-child){
+  margin-bottom: 15px;
+  
+}
+
+li::before{
+  content:"\2B9A";
+  font-size: 19px;
+  position: absolute;
+  left: 0;
+  margin-left: 40px;
+  margin-top: -3px;
+  
+
 }
 
 #dishContainer {
@@ -43,7 +65,7 @@ h3 {
 #Next {
   position: absolute;
   border-radius: 100px;
-  left: 60%;
+  left: 55%;
   bottom: 10%;
   padding-top: 6px;
   padding-left: 17px;
