@@ -509,6 +509,11 @@ function fillMenu() {
         dishElement.innerHTML = menu[token][dishIndex];
 
         menuContainer.appendChild(dishElement); 
+
+        var line = document.createElement("hr");
+        line.id = "line" + dishIndex;
+        line.className = "horizontal-line";
+        menuContainer.appendChild(line);;
     }
 }
 
@@ -521,6 +526,9 @@ function delMenu() {
         tagName = "dish" + dishIndex;
         var dishElement = document.getElementById(tagName);
         
+        var line = document.getElementById("line" + dishIndex)
+
+        line.remove()
         
         dishElement.remove();
     }
@@ -534,7 +542,7 @@ function nextMeal() {
     
     if (token === 27)
     {
-        token = 0;
+        token = 0;       
         
         fillMenu();
     }
