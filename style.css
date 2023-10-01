@@ -44,7 +44,7 @@ li:not(:last-child){
 }
 
 li::before{
-  content:"\2B9A";
+  content:"\1F374";
   font-size: 19px;
   position: absolute;
   left: 0;
