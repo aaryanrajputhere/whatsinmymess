@@ -9,52 +9,71 @@
   text-align: center;
 }
 
+#menuContainer {
+  box-sizing: border-box;
+  
+  height: auto;
+  width: auto;
+  align-self: center;
+ 
+
+}
+.horizontal-line{
+
+  position: relative;
+  align-items: center;
+  width: 200px;
+}
+
 li {
+
   color: black;
   list-style: none;
-  text-align: center;
-  
-}
-
-li:not(:last-child){
-  margin-bottom: 15px;
-}
-li::before{
-  content: "\1F374";
-  color:black;
+  display: flex;
+  width: 170px;
   position: relative;
+  right: 1%;
 
 }
 
-.buttonsContainer{
+li:hover{
+  border: 2px solid black;
 
- display: flex;
- justify-content: space-around;
+}
+
+li:not(:last-child) {
+  margin-top: 10px;
+}
+
+li::before {
+  content: "\1F374";
+  color: black;
+}
+
+.buttonsContainer {
+
+  display: flex;
+  justify-content: space-around;
+  
  
+
 }
 
 
 
 
 button {
-  align-items: center;
+  margin: 5px;
+  
   background-color: #fff;
   border-radius: 12px;
   box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
   box-sizing: border-box;
   color: #121212;
   cursor: pointer;
-  display: inline-flex;
-  flex: 1 1 auto;
   font-family: Inter,sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
-  justify-content: center;
-  line-height: 1;
-  margin: 0;
-  outline: none;
-  padding: 1rem 1.2rem;
-  text-align: center;
   text-decoration: none;
   transition: box-shadow .2s,-webkit-box-shadow .2s;
   white-space: nowrap;
@@ -67,3 +86,5 @@ button {
 button:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
+
+
