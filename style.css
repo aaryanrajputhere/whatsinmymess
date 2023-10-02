@@ -1,11 +1,11 @@
 .body{
-  background-color: rgb(250, 243, 243);
+   background-color: rgb(250, 243, 243);
 }
+
 
 
 .container {
   box-sizing: border-box;
-  background-color: rgb(250, 243, 243);
   height: 75vh;
   width: auto;
 }
@@ -60,7 +60,8 @@ li::before {
   display: flex;
   justify-content: space-around;
   
- 
+  position: relative;
+  bottom: 70px;
 
 }
 
@@ -91,5 +92,3 @@ button {
 button:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
 }
-
-
