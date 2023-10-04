@@ -1,7 +1,23 @@
-.body{
+body{
    background-color: rgb(250, 243, 243);
 }
 
+.social-links {
+  color: #121212;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+a{
+  color: #414141;
+  text-decoration: none;
+  font-size: 30px;
+  transition-duration: 0.2ms;
+}
+a:hover{
+  color: #121212;
+}
 
 
 .container {
@@ -91,4 +107,15 @@ button {
 
 button:hover {
   box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+p {
+  position: relative;
+  text-align: center;
+}
+
+
+.linkContainer {
+  position: relative;
+  text-align: center;
 }
