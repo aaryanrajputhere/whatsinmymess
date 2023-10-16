@@ -260,40 +260,39 @@ let menu =
     [
         [
             // Sunday Breakfast
-            "Nan Chhote",
+            "Nan Chhole",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
         ],
         [
             // Sunday Lunch
-            "Mater Masroom",
+            "Aloo Matar Sabji",
             "Dal",
             "Rice",
             "Chapati",
-            "Raita",
+            "Curd",
             "Salad",
             "Lassi"
         ],
         [
             // Sunday Snacks
-            "Sandwich",
-            "Tea",
+            "Coffee",
         ],
         [
             // Sunday Dinner
-            "Kadhai Paneer / Chicken",
+            "Kadhai Paneer / Butter Chicken",
             "Dal",
             "Rice",
-            "Rumali Roti",
+            "Roti",
             "Salad",
-            "Ladoo"
+            "Rasmalai"
 
         ],
         [
             // Monday Breakfast
             "Aloo Parantha",
-            "Curd",
+            "Butter / Curd",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
@@ -304,28 +303,28 @@ let menu =
             // Monday Lunch
             "Black Channa",
             "Chappati",
-            "Fried Rice",
+            "Rice",
             "Salad",
             "Raita",
             "Lassi"
         ],
         [
             // Monday Snacks
-            "Burger",
-            "Tea",
+            "Banana Shake",
+           
         ],
         [
             // Monday Dinner
             "Mix Veg",
-            "Moong Daal",
+            "Arhar Daal",
             "Rice",
             "Chapati",
             "Salad",
-            "Kulfi",
+            "Choclate Kulfi",
         ],
         [
             // Tuesday Breakfast
-            "Banana Milk",
+            "Beson Chilla",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
@@ -334,7 +333,7 @@ let menu =
         ],
         [
             // Tuesday Lunch
-            "Kadhi Pakora",
+            "Kadhi Pakoda",
             "Papad",
             "Rice",
             "Chapati",
@@ -343,12 +342,12 @@ let menu =
         ],
         [
             // Tuesday Snacks
-            "Fruit Chat",
+            "Aloo Tikki",
             "Tea"
         ],
         [
             // Tuesday Dinner
-            "Manchurian",
+            "Matar Paneer",
             "Dal Fry",
             "Rice",
             "Chapati",
@@ -357,10 +356,10 @@ let menu =
         ],
         [
             // Wednesday Breakfast
-            "Poha",
+            "Poha / Sattu Parantha",
+            "Bread Omelette",
             "Cornflex",
             "Bread Butter & Jam",
-            "Bread Omelette",
             "Milk",
             "Tea",
         ],
@@ -375,7 +374,6 @@ let menu =
         ],
         [
             // Wednesday Snacks
-            "Spring Roll",
             "Tea",
         ],
         [
@@ -385,6 +383,7 @@ let menu =
             "Dal",
             "Butter Naan",
             "Salad",
+            "Gulab Jamun"
         ],
         [
             // Thursday Breakfast
@@ -396,7 +395,8 @@ let menu =
         ],
         [
             // Thursday Lunch
-            "Matar Paneer",
+            "Soya Chaap",
+            "Maa Sabut Daal",
             "Rice",
             "Chapati",
             "Salad",
@@ -405,13 +405,13 @@ let menu =
         ],
         [
             // Thursday Snacks
-            "Samosa",
+            "Paneer Kulche",
             "Tea",
         ],
         [
             // Thursday Dinner
             "Chana Masala",
-            "Chana Dal",
+            "Moong Dal",
             "Rice",
             "Chapati",
             "Salad",
@@ -419,7 +419,8 @@ let menu =
         ],
         [
             // Friday Breakfast
-            "Aloo Parantha",
+            "Puri",
+            "Aloo Sabzi",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
@@ -436,23 +437,24 @@ let menu =
         ],
         [
             // Friday Snacks
-            "Maggi",
+            "Noodle",
             "Tea",
         ],
         [
             // Friday Dinner
             "Egg Curry / Chilli Paneer",
-            "Arhar Dal",
-            "Rice",
+            "Chilli Souce",
+            "Masar Dal",
+            "Fried Rice",
             "Chapati",
             "Salad",
             "Ice Cream"
         ],
         [
             // Saturday Breakfast
-            "Dosa",
-            "Uttapam",
+            "Dosa / Uttapam",
             "Sambhar",
+            "Moongfali Chatni",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
@@ -461,7 +463,7 @@ let menu =
         [
             // Saturday Lunch
             "Rajma",
-            "Masoor Saboot Dal",
+            "Sambhar",
             "Rice",
             "Chapati",
             "Salad",
@@ -469,12 +471,12 @@ let menu =
         ],
         [
             // Saturday Snacks
-            "Paneer Kulche",
+            "Samosa Chana",
             "Tea",
         ],
         [
             // Saturday Dinner
-            "Aloo Matar",
+            "Aloo Tomato Matar",
             "Arhar Daal",
             "Rice",
             "Chapati",
@@ -578,7 +580,6 @@ next.addEventListener("click", nextMeal);
 const previous = document.getElementById("Previous");
 
 previous.addEventListener("click", previousMeal);
-
 
 
 
