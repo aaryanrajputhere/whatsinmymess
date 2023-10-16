@@ -324,7 +324,7 @@ let menu =
         ],
         [
             // Tuesday Breakfast
-            "Beson Chilla",
+            "Besan Chilla",
             "Cornflex",
             "Bread Butter & Jam",
             "Milk",
