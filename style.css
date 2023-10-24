@@ -4,8 +4,7 @@ h1 {
 }
 
 #messesContainer{
-    border: 2px solid blue;
-    box-sizing: border-box;
+ 
     position: relative;
     text-align: center;
     display: flex ;
