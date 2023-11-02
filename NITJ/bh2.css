@@ -2,24 +2,6 @@ body{
    background-color: rgb(250, 243, 243);
 }
 
-.social-links {
-  color: #121212;
-  text-align: center;
-  text-decoration: none;
-
-}
-
-a{
-  color: #414141;
-  text-decoration: none;
-  font-size: 30px;
-  transition-duration: 0.2ms;
-}
-a:hover{
-  color: #121212;
-}
-
-
 .container {
   box-sizing: border-box;
   height: 75vh;
