@@ -15,7 +15,6 @@ let menu =
             "Chapati",
             "Curd",
             "Salad",
-            "Lassi"
         ],
         [
             // Sunday Snacks
@@ -29,7 +28,6 @@ let menu =
             "Roti",
             "Salad",
             "Rasmalai"
-
         ],
         [
             // Monday Breakfast
@@ -39,7 +37,6 @@ let menu =
             "Bread Butter & Jam",
             "Milk",
             "Tea",
-
         ],
         [
             // Monday Lunch
@@ -48,7 +45,6 @@ let menu =
             "Rice",
             "Salad",
             "Raita",
-            "Lassi"
         ],
         [
             // Monday Snacks
@@ -80,7 +76,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Lassi"
         ],
         [
             // Tuesday Snacks
@@ -112,7 +107,6 @@ let menu =
             "Chapati",
             "Salad",
             "Curd",
-            "Lassi"
         ],
         [
             // Wednesday Snacks
@@ -143,7 +137,6 @@ let menu =
             "Chapati",
             "Salad",
             "Curd",
-            "Lassi"
         ],
         [
             // Thursday Snacks
@@ -175,7 +168,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Lassi"
         ],
         [
             // Friday Snacks
@@ -209,7 +201,6 @@ let menu =
             "Rice",
             "Chapati",
             "Salad",
-            "Lassi",
         ],
         [
             // Saturday Snacks
