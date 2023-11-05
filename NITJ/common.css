@@ -1,25 +1,26 @@
 body{
-   background-color: rgb(250, 243, 243);
+   background-color:white;
 }
 
 .container {
   box-sizing: border-box;
-  height: 75vh;
-  width: auto;
 }
 
 .mealContainer {
   text-align: center;
+
+}
+
+.mealContainerItem {
+  margin: 0px;
+  padding: 0px;
 }
 
 #menuContainer {
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
   height: auto;
   width: auto;
   align-self: center;
- 
-
 }
 .horizontal-line{
 
@@ -59,7 +60,7 @@ li::before {
   justify-content: space-around;
   
   position: relative;
-  bottom: 70px;
+  bottom: 0px;
 
 }
 
@@ -67,7 +68,7 @@ li::before {
 
 
 button {
-  margin: 5px;
+
   
   background-color: #fff;
   border-radius: 12px;
