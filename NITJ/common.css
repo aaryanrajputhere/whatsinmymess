@@ -63,10 +63,11 @@ li::before {
   position: absolute;
   margin: 10px;
   text-align: center;
-  top:70%
+  top:70%;
+
 }
 .menuButton {
-  margin:50px ;
+  margin: 0 20px; 
 }
 
 
