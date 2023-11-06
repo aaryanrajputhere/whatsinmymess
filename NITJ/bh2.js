@@ -3,7 +3,7 @@ let menu =
         [
             // Sunday Breakfast
             "Nan Chhole",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
         ],
@@ -33,7 +33,7 @@ let menu =
             // Monday Breakfast
             "Aloo Parantha",
             "Butter / Curd",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
@@ -63,7 +63,7 @@ let menu =
         [
             // Tuesday Breakfast
             "Besan Chilla",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
@@ -95,7 +95,7 @@ let menu =
             // Wednesday Breakfast
             "Poha / Sattu Parantha",
             "Bread Omelette",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
@@ -124,7 +124,7 @@ let menu =
         [
             // Thursday Breakfast
             "Chole Bhature",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
@@ -156,7 +156,7 @@ let menu =
             // Friday Breakfast
             "Puri",
             "Aloo Sabzi",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
@@ -189,7 +189,7 @@ let menu =
             "Dosa / Uttapam",
             "Sambhar",
             "Moongfali Chatni",
-            "Cornflex",
+            "Cornflakes",
             "Bread Butter & Jam",
             "Milk",
             "Tea",
