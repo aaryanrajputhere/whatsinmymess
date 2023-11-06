@@ -59,9 +59,10 @@ li::before {
   display: flex;
   justify-content: space-around;
   
-  position: relative;
-  bottom: 0px;
-
+  position: absolute;
+ 
+  margin: 20px;
+  text-align: center;
 }
 
 
