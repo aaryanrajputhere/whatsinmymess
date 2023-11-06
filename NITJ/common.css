@@ -40,10 +40,6 @@ li {
 
 }
 
-li:hover{
-  border: 2px solid black;
-
-}
 
 li:not(:last-child) {
   margin-top: 10px;
