@@ -1,5 +1,10 @@
 body{
    background-color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   margin: 0;
 }
 
 .container {
@@ -55,10 +60,13 @@ li::before {
   display: flex;
   justify-content: space-around;
   
-  position: relative;
+  position: absolute;
   margin: 10px;
   text-align: center;
-
+  top:70%
+}
+.menuButton {
+  margin:50px ;
 }
 
 
