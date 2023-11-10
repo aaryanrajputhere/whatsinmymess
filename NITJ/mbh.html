@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EVMZGEQJ0R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-EVMZGEQJ0R");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MBH NITJ Mess</title>
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="mealContainer">
+        <a href="/index.html"
+          ><img
+            class="mealContainerItem"
+            src="logo.gif"
+            alt="Logo GIF"
+            width="400"
+            height="84"
+        /></a>
+        <h2 class="mealContainerItem" id="hostelName">MBH</h2>
+        <h2 class="mealContainerItem" id="currentMeal"></h2>
+        <h2 class="mealContainerItem" id="currentTiming"></h2>
+      </div>
+      <center><ul id="menuContainer"></ul></center>
+    </div>
+    <div class="buttonsContainer">
+      <button class="menuButton" id="Previous">Previous</button>
+      <button class="menuButton" id="Next">Next</button>
+    </div>
+
+    <script src="mbh.js"></script>
+    <script src="common.js"></script>
+  </body>
+</html>
