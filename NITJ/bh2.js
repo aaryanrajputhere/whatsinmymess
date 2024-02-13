@@ -1,43 +1,81 @@
 let menu = [
-    // Sunday
-    ["Nan Chhole", "Cornflex", "Bread Butter", "Jam", "Milk"],
-    ["Alloo Jeera", "Dal Makhni", "Dal", "Rice", "Chapati", "Curd", "Salad"],
-    ["Tea"],
-    ["Karahi Paneer", "Chilly Chicken", "Dal", "Rice", "Rotti", "Salad","Rasmalai"],
+  // Sunday
+  ["Nan Chhole", "Cornflakes", "Bread Butter", "Jam", "Tea"],
+  ["Alloo Gobi", "Mix Dal", "Rice", "Chapati", "Curd"],
+  ["Tea"],
+  ["Karahi Paneer/Chilly Chicken", "Dal", "Rice", "Rotti", "Gulab Jamun"],
 
-    // Monday
-    ["Aloo Parantha", "Curd", "Cornflex", "Bread Butter", "Jam", "Milk", "Tea"],
-    ["Black Channa", "Chapatti", "Dal", "Fried Rice Salad", "Curd"],
-    ["Patties", "Tea"],
-    ["Nutree Bhurji", "Arhar Dal", "Rice", "Chapatti", "Salad","Moong Dal ka Halwa"],
+  // Monday
+  ["Aloo Parantha-Curd", "Cornflakes", "Bread Butter", "Jam", "Tea"],
+  ["Kalla Channa", "Chapatti", "Dal", "Fried Rice", "Raita"],
+  ["Mix Pakoda", "Tea"],
+  ["Nutree Bhurji", "Mix Dal Rice", "Chapatti", "Mix Pakoda", "Rasmalai"],
 
-    // Tuesday
-    ["Puri", "Aloo Sabzi", "Cornflex", "Bread Butter", "Jam", "Milk"],
-    ["Kadi Pakora", "Papad", "Rice", "Chapati", "Salad"],
-    ["Aloo Tikki", "Tea"],
-    ["Aloo Gajar Matar", "Arhar Dal", "Rice", "Chapati", "Salad","Gulab Jamun"],
+  // Tuesday
+  [
+    "Idli",
+    "Coconut Chutney",
+    "Sambar",
+    "Cornflakes",
+    "Bread Butter",
+    "Jam",
+    "Tea",
+  ],
+  ["Rajma", "Sambar", "Rice", "Chapatti", "Curd", "Salad"],
+  ["Aloo Tikki"],
+  ["Channa Masala", "Dal", "Rice", "Chapatti", "Jalebi"],
 
-    // Wednesday
-    ["Poha", "Sprout Chat", "Cornflex", "Bread Omelette", "Butter", "Jam", "Milk"],
-    ["Rajma", "Gheeya Sabzi Rice", "Chapati", "Salad", "Curd"],
-    ["Tea"],
-    ["Shahi Paneer/Gravy Chicken", "Rice", "Dal", "Butter Nan", "Salad", "Gajar Halwa"],
+  // Wednesday
+  [
+    "Poha + Bhujia",
+    "Sprout Chat",
+    "Cornflakes",
+    "Bread Omelette",
+    "Bread Butter",
+    "Jam",
+    "Tea",
+  ],
+  ["Kaddi Pakoda", "Chapatti", "Dal"],
+  ["Tea"],
+  [
+    "Shahi Paneer/Gravy Chicken",
+    "Dal",
+    "Rice",
+    "Butter Naan",
+    "Moong Dal ka Halwa",
+  ],
 
-    // Thursday
-    ["Chole Bhature", "Cornflex", "Bread Butter", "Jam", "Milk", "Tea"],
-    ["Allo Methi Sabzi", "Mah Sabat Dal Rice", "Chapatti", "Salad", "Curd"],
-    ["Paneer Kulchhe", "Tea"],
-    ["Sarso ka Saag", "Moong Dal", "Rice", "Makki Roti", "Salad","Chocolate/Vanilla Pastry"],
+  // Thursday
+  ["Chole Bhature", "Cornflakes", "Bread Butter", "Jam", "Tea"],
+  ["Chilly Paneer", "Mah Sabat Dal", "Chapatti", "Curd"],
+  ["Paneer Kulchhe", "Tea"],
+  ["Mix Veg", "Moong Dal", "Rice", "Chapati", "Gajar Halwa"],
 
-    // Friday
-    ["Gobi/Methi Pratha", "Cornflex", "Bread Butter", "Jam", "Milk"],
-    ["Dal Makhani", "Baingan ka Bhartha", "Rice", "Chapati", "Papad", "Salad", "Curd"],
-    ["Burger", "Tea",],
-    [ "Egg Curry", "Palak Paneer", "Chilli Souce", "Masar Dal", "Rice", "Chapati", "Salad","Jalebi"],
+  // Friday
+  ["Mix Pratha", "Cornflakes", "Bread Butter", "Jam", "Tea"],
+  ["Dal Makhani", "Sambar", "Rice", "Chapati", "Papad", "Curd"],
+  ["Burger", "Tea"],
+  [
+    "Egg Curry/Chicken Biryani",
+    "Palak Paneer",
+    "Masar Dal",
+    "Rice",
+    "Chapati",
+    "Seviyan",
+  ],
 
-    // Saturday
-    ["Dosa", "Uttapam", "Sambar", "Moongfali Chatni", "Cornflex", "Bread Butter Jam", "Milk"],
-    ["Alloo Vaddiyan", "Chappati", "Butter", "Salad"],
-    ["French Fries", "Tea",],
-    ["Paneer Bhurji", "Dal Fry", "Rice", "Chapati", "Salad","Khir"],
-]
+  // Saturday
+  [
+    "Dosa Sambar",
+    "Moongfali Chatni",
+    "Uttapam Sambar",
+    "Moongfali Chatni",
+    "Cornflakes",
+    "Bread Butter",
+    "Jam",
+    "Tea",
+  ],
+  ["Puri", "Channa", "Rice", "Chatni", "Curd"],
+  ["French Fries", "Tea"],
+  ["Dam Aloo", "Dal Fry", "Rice", "Chapati", "Kheer"],
+];
